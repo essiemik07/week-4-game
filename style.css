@@ -1,0 +1,142 @@
+body{
+    background: paleturquoise
+}
+
+
+#container{
+    width: 1000px;
+    height: 2000px;
+}
+body{
+    width: 900px;
+    height: 1000px;
+}
+
+#titlebox{
+    margin: 35px;
+} 
+
+.title{
+    height: 90px;
+    width: 310px;
+    text-align: center;
+    background: rgb(221, 160, 48);
+    color: #ccc; 
+    font-size: 40px;
+    margin: 40px 1px 1px 34px;
+}
+
+#instructions{
+    margin: 34px;
+    width: 600px;
+    height: 500px;
+    background: rgb(245, 208, 140);
+}
+
+#random{
+    margin: 35px;
+    width: 500px;
+    height: 150px;
+}
+
+.randomNumber{
+    width: 300px;
+    height: 155px;
+    float: left;
+    background: rgb(108, 159, 182);
+    font-size: 50px;
+    color: #ccc;
+}
+
+.winLose{
+    width: 100px;
+    height: 155px;
+    float: right;
+    background: rgb(126, 212, 205);
+    margin-right: 90px;
+}
+
+h1{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+h2{
+    font-size: 40px;
+    color: black;
+}
+
+h3{
+    font-size: 15px;
+    color: black
+}
+
+#buttons{
+    margin: 1px 1px 1px 30px;
+    width: 600px;
+    height: 200px;
+}
+
+#box1{
+    height: 5px;
+    width: 5px;
+    float: left;
+    margin-left: 0;
+}
+
+#box2{
+    height: 5px;
+    width: 5px;
+    float: left;
+    margin-left: 223px;
+    margin-bottom: -13px;
+}
+
+#box3{
+    height: 5px;
+    width: 5px;
+    float: left;
+    margin-left: 450px;
+}
+
+#box4{
+    height: 5px;
+    width: 5px;
+    float: right;
+    margin-right: -87px;
+}
+
+.box{
+    width: 130px;
+    height: 100%;
+    margin: 0 10px 0 10px;
+    float: left;
+    overflow: hidden;
+}
+
+#scores{
+    margin: 56px 56px 56px 25px;
+    width: 330px;
+    height: 250px;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    border-radius: 60px;
+}
+
+.total{
+    margin: 25px auto auto 10px;
+    width: 100%;
+    height: 25%;
+    background: rgb(20, 179, 190);
+}
+
+#display{
+    margin: 20px 1px -5px 0px;
+    width: 100%;
+    height: 70%;
+    background: rgb(20, 179, 190);
+    position: absolute;
+    bottom: 0px;
+}
