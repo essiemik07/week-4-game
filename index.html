@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <div id="container">   
+        <div id="titleBox">
+            <div class="title">Crystal Collectors</div>
+        </div> 
+        
+        <div id="instructions">
+          <h1>
+            <p>
+                You will be given a random number at the start of the game.
+            </p>
+            <p>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            </p>
+            <p>
+                You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            </p>
+            <p>
+                The value of each crystal is hidden from you until you click on it.
+            </p>
+            <p>
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+          </h1>
+        </div>
+
+        <div id="random">
+            <div class="randomNumber">
+                <h2><span class="value">0</span></h2>
+
+            </div>
+            <div class="winLose">
+                <h3>Wins: </h3>
+                    <p class="win">0</p>
+                <h3>Losses: </h3>
+                    <p class="loss">0</p>
+
+            </div>
+        </div>
+
+        <div id="buttons">
+            <div data-num="1" id="box1" class="image">
+                <img src="https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal1.png">
+            </div>
+            <div data-num="14" id="box2" class="image">
+                <img src="https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal2.png">
+            </div>
+            <div data-num="7" id="box3" class="image"> 
+                <img src="https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal3.png">
+            </div>  
+            <div data-num="11" id="box4" class="image">
+                <img src="https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal4.png">
+            </div>              
+        </div>
+
+
+    <div id="scores">
+        <div class="total">
+            <p>Your total score is:</p>
+            <span id="display">0</span>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>
