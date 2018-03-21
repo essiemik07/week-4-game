@@ -28,7 +28,6 @@ $(document).ready(function() {
 			var crystals = $('<img>');
 			crystals.attr('data-num', numbers[i]);
 			crystals.attr('src', buttons[i]);
-			crystals.addClass('boxes')
 			$('#buttons').append(crystals);
 		}
 	}
