@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    buttons = ["https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal1.png", "https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal2.png", "https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal3.png", "https://raw.githubusercontent.com/essiemik07/week-4-game/master/assets/crystal4.png" ];
+    buttons = ["box1", "box2", "box3", "box4"];
 
     var counter = 0;
 	var wins = 0;
